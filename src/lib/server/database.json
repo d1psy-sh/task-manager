@@ -1,0 +1,28 @@
+{
+	"tasks": [
+		{
+			"task": "Buy milk",
+			"status": "todo"
+		},
+		{
+			"task": "Buy food",
+			"status": "todo"
+		},
+		{
+			"task": "Buy bread",
+			"status": "todo"
+		},
+		{
+			"task": "Buy drings",
+			"status": "todo"
+		},
+		{
+			"task": "Buy toys",
+			"status": "done"
+		},
+		{
+			"task": "Buy something",
+			"status": "idea"
+		}
+	]
+}
