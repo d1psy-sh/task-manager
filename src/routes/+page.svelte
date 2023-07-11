@@ -12,7 +12,7 @@
 		>Add a Task
 		<input type="text" name="task" />
 		<input type="text" name="status" />
-		<input type="hidden" name="data" value={data} />
+		<input type="hidden" name="action" value="create" />
 		<input type="submit" />
 	</label>
 </form>

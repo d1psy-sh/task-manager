@@ -7,12 +7,22 @@ export function loadDatabase() {
     return tasks.tasks;
 }
 
-export function updateTask(taskID) {
+function updateTask(taskID) {
     // update task status where taskID = taskID
 }
 
-export function saveDatabase(taskObject) {
+function createTask(taskObject) {
+    // insert into tasks (task, status) values (taskObject.task, taskObject.status)
+}
+
+export function saveDatabase(taskObject, aktion) {
     // TODO: implement this function save new task to database
+    switch (aktion) {
+        case 'update':
+            updateTask(taskObject.taskID);
+        case 'create':
+            createTask(taskObject);
+    }
     console.log(taskObject);
     // insert into tasks (task, status) values (taskObject.task, taskObject.status)
 }
